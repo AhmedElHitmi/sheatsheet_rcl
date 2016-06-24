@@ -1,0 +1,46 @@
+html, body {
+ margin: 0;
+ padding: 0;
+ }
+body {
+ background-color: white;
+ font-family: Verdana, sans-serif;
+ font-size: 100%;
+ }
+h1 {
+  color: navy;
+  text-align: center;
+}
+
+td {
+  color:blue;
+}
+th {
+  color:red;
+}
+
+span {
+  font-weight: bold;
+}
+
+blockquote
+{
+box-shadow: 0px 0px 10px rgba(150, 150, 150, 1)
+}
+@media screen and (max-width: 1280px)
+
+{
+}
+     /* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
+@media all and (min-width: 1024px) and (max-width: 1280px)
+{
+}
+     /* Sur les téléviseurs */
+@media tv
+{
+     }
+     /* Sur tous types d'écrans orientés verticalement */
+ @media all and (orientation: portrait)
+ {
+
+ }
